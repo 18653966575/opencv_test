@@ -1,15 +1,10 @@
 """
 获取图片信息
 """
-
 import cv2
 import numpy as np
-img=cv2.imread('E:/a.jpg')
 
-# px=img[100,100]
-# print(px)EE
-# blue=img[100,100,0]EE
-# print(blue)
+img=cv2.imread('E:/a.jpg')
 
 #形状（行，列，深度？）
 print(img.shape)
