@@ -1,7 +1,6 @@
 from urllib import request
 import requests
 
-
 def get_image(url):
     req = request.Request(url)
     get_img = request.urlopen(req).read()
